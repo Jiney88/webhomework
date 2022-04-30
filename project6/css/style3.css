@@ -1,0 +1,140 @@
+.bd {
+    width: 1066px;
+    height: 675px;
+    padding: 10px;
+    background: #7f7f7f;
+    display: flex;
+    flex-direction: column;
+}
+
+.bd>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 {
+    margin-bottom: 15px;
+}
+
+.row1>div {
+    margin-right: 8px;
+}
+
+.row1>div:last-child {
+    margin: 0;
+}
+
+.row2>div {
+    margin-right: 8px;
+}
+
+.row2>div:last-child {
+    margin: 0;
+}
+
+.product {
+    width: 350px;
+    height: 330px;
+}
+
+.pt {
+    height: 230px;
+    background: #FFFFEB;
+}
+
+.dt {
+    padding: 10px;
+    flex-direction: column;
+    background: #FFFFFF;
+}
+
+.dt>li {
+    display: flex;
+    width: 320px;
+    height: 20px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.ls {
+    display: flex;
+    width: 330px;
+    height: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.ls>li {
+    list-style: none;
+    font-size: 12px;
+    padding-left: 5px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.ls>li:nth-child(1) {
+    color: #F60D3D;
+}
+
+.ls>li:nth-child(2) {
+    color: #7f7f7f;
+}
+
+.pc {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.pc>li {
+    list-style: none;
+    display: inline;
+}
+
+.pc>em {
+    width: 158px;
+}
+
+.pc>li:nth-child(1) {
+    color: #F60D3D;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.pc>li:nth-child(2) {
+    color: #F60D3D;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.pc>li:nth-child(3) {
+    color: #7f7f7f;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: line-through;
+    align-self: flex-end;
+    margin-bottom: 4px;
+}
+
+.pc>li:nth-child(5) {
+    color: #F60D3D;
+    font-size: 10px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: 4px;
+}
+
+.pc>li:nth-child(6) {
+    color: #7f7f7f;
+    font-size: 10px;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-bottom: 4px;
+}

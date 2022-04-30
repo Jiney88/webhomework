@@ -1,0 +1,48 @@
+.m-index3 {
+    border: solid;
+    margin: 50px;
+    height: 400px;
+    width: 500px;
+    padding: 30px 15px;
+    position: relative;
+}
+
+.m-add {
+    height: 35px;
+    width: 150px;
+    border-radius: 2px;
+    border: solid black 2px;
+    background: #339966;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+
+.u-content {
+    display: flex;
+    border: solid;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.u-no {
+    border-right: solid;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.u-info {
+    width: 364px;
+}
+
+.u-del {
+    border-left: solid;
+    text-align: center;
+    width: 100px;
+    line-height: 30px;
+}

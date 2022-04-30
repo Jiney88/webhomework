@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project8</title>
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet">
+</head>
+
+<body>
+    <ul>
+        <button><a href="#sec1">1.图片放大</a></button>
+        <button><a href="#sec2">2.页面滑动</a></button>
+        <button><a href="#sec3">3.数据管理</a></button>
+    </ul>
+
+    <section id='sec1'>
+        <div class="m-index1">
+            <div class="m-list">
+                <div class="u-pic">1</div>
+                <div class="u-pic">2</div>
+                <div class="u-pic">3</div>
+                <div class="u-pic">4</div>
+                <div class="u-pic">5</div>
+                <div class="u-pic">6</div>
+                <div class="u-pic">7</div>
+                <div class="u-pic">8</div>
+                <div class="u-pic">9</div>
+                <div class="u-pic">10</div>
+            </div>
+            <div class="u-box hide"></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="css/index1.js"></script>
+    </section>
+    <section id='sec2'>
+        <div class="m-index2">
+            <div class="m-nav">
+                <div class="u-tab focus" data_id="1"></div>
+                <div class="u-tab" data_id="2"></div>
+                <div class="u-tab" data_id="3"></div>
+            </div>
+            <div class="m-bd">
+                <div class="m-content" data_id="1">1</div>
+                <div class="m-content hide" data_id="2">2</div>
+                <div class="m-content hide" data_id="3">3</div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="css/index2.js"></script>
+    </section>
+    <section id='sec3'>
+        <div class="m-index3">
+            <div class="m-data"></div>
+            <button class="m-add">添加</button>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="css/index3.js"></script>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.m-index2 {
+    margin: 50px;
+}
+
+.m-nav {
+    display: flex;
+}
+
+.u-tab {
+    height: 30px;
+    width: 70px;
+    border-top: solid;
+    border-right: solid;
+}
+
+.m-nav>div:nth-child(1) {
+    border-left: solid;
+}
+
+.u-tab.focus {
+    background: #999;
+}
+
+.m-bd {
+    border: solid;
+    width: 500px;
+}
+
+.m-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    color: gray;
+    height: 400px;
+}
+
+.m-content.hide {
+    display: none;
+}
